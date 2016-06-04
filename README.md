@@ -14,3 +14,5 @@ Expect script that identifies the port-channels in the switches.
 cmd_po-vlan_exp.exp:
 Expect script that identifies the vlans trunked through the port-channels identifies earlier. 
 
+Output is stored in files that have the name <switch-name>-vtrunkline.out
+We would have to diff the the right A & B side outputs.
